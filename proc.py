@@ -16,3 +16,4 @@ def toCSV(input_file, output_file, headings):
     print(f"Conversion from {input_file} to {output_file} is complete.")
 
 toCSV("data/ethylene_CO.txt","proc_data/ethylene_CO.csv",['Time','Conc_CO','Conc_Eth'])
+toCSV("data/ethylene_methane.txt","proc_data/ethylene_methane.csv",['Time','Conc_Meth','Conc_Eth'])
